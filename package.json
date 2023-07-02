@@ -1,0 +1,27 @@
+{
+  "name": "waybackurls",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run"
+  },
+  "devDependencies": {
+    "@vitest/ui": "latest",
+    "vite": "latest",
+    "vitest": "latest"
+  },
+  "stackblitz": {
+    "startCommand": "npm run test:ui"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.1",
+    "radash": "^11.0.0",
+    "tinyargs": "^0.1.4",
+    "ts-pattern": "^5.0.1",
+    "zod": "^3.21.4"
+  }
+}
